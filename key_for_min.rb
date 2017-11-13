@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
   count = 1
+  pair = []
   name_hash.each do |name, value|
     if count == 1
       lowest = value
