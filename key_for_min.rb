@@ -6,16 +6,20 @@ def key_for_min_value(name_hash)
   lowest = 0
   lowestName = ""
 
-  name_hash.each do |name, value|
-    if count  == 1 then
-      lowest = value
-      lowestName = name
-    elsif value < lowest then
-      lowest = value
-      lowestName = name
-    end
-    count += 1
-  end
+  if name_hash == nil
+    nil
+  else
+      name_hash.each do |name, value|
+        if count  == 1 then
+          lowest = value
+          lowestName = name
+        elsif value < lowest then
+          lowest = value
+          lowestName = name
+        end
+        count += 1
+      end
 
   lowestName
+end
 end
