@@ -14,6 +14,7 @@ def key_for_min_value(name_hash)
       keyWLowest = name
     end
     count +=1
+    
   end
 
   keyWLowest
