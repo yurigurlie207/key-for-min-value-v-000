@@ -8,6 +8,7 @@ def key_for_min_value(name_hash)
   name_hash.collect do |name, value|
     if count  == 1 then
       lowest = value
+      name = value
     elsif value < lowest then
       lowest = value
     end
