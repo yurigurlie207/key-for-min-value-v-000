@@ -20,6 +20,7 @@ def key_for_min_value(name_hash)
         count += 1
       end
 
-  lowestName
-end
+      lowestName
+    end
+    
 end
