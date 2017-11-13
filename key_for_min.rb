@@ -4,17 +4,6 @@
 def key_for_min_value(name_hash)
   count = 1
 
-  name_hash.collect do |number|
-
-    if count == 1 then
-      lowest = number
-    elsif number < lowest then
-      lowest = number
-    end
-
-    count +=1
-
-  end
 
 
 end
