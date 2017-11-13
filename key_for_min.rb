@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
       name = name
     elsif value < lowest then
       lowest = value
-      lowestName = value
+      lowestName = name
     end
     count += 1
   end
